@@ -1,5 +1,6 @@
 const express = require('express');
-const { lstat } = require('fs');
+const { writeFile, copyFile } = require('./utils/writefile.js');
+const fs = require('fs');
 
 const path = require('path');
 
@@ -7,14 +8,21 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 // ===========================================================
 
-app.use(express.static("public"))
+app.use(express.static("public"));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-// Data
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/notes.html'));
+});
 
+// Data
+// app.get("/api/notes", (req, res) => {
+//     const notes = require("./db/db.json")
+//     res.json(notes)
+// });
 
 // Routes
 // ===========================================================
