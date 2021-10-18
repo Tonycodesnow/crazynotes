@@ -19,10 +19,10 @@ app.get('/notes', (req, res) => {
 });
 
 // Data
-// app.get("/api/notes", (req, res) => {
-//     const notes = require("./db/db.json")
-//     res.json(notes)
-// });
+app.get("/api/notes", (req, res) => {
+    const notes = require("./db/db.json")
+    res.json(notes)
+});
 
 // Routes
 // ===========================================================
