@@ -28,9 +28,15 @@ so that you can organize your day notes to keep track of anything. <br />
 
 ## Deployed application link
 
+https://radiant-brook-87611.herokuapp.com/
 
 ## Screenshot
 
+<p align="center"><img src="./assets/images/crazynotespix.png" width="45%"></p>  <br /> 
+
+ <br />
+
+<p align="center"><img src="./assets/images/Notespg.png" width="45%"></p>  <br /> 
 
  <br />
 
