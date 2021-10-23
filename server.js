@@ -1,5 +1,5 @@
 const express = require('express');
-const { writeFile, copyFile } = require('./utils/writefile.js');
+const { writeFile, copyFile } = require('./routes/writefile.js');
 const fs = require('fs');
 
 const path = require('path');
@@ -28,9 +28,9 @@ app.get("/api/notes", (req, res) => {
 
 // Routes
 // ===========================================================
-app.post("/api/notes", {
+// app.post("/api/notes", {
 
-})
+// })
   // Listener
   // ===========================================================
   app.listen(PORT, () => {
