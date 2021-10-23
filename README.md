@@ -4,6 +4,12 @@
 
 ![GitHub license](https://img.shields.io/badge/License-MIT-3b4f93.svg) <br />
 
+<br />
+
+## Description
+
+Crazynotes is this application that can be used to write and save notes. This application uses Express.js back end and will save and retrieve note data from a JSON file.
+
 ## Table of Contents 
 
 - [Description](#description)
@@ -16,10 +22,6 @@
 
 <br />
 <br />
-
-## Description
-
-Crazynotes is this application that can be used to write and save notes. This application uses Express.js back end and will save and retrieve note data.
 
 ## Usage
 
